@@ -56,23 +56,23 @@ float total_salary(float a,float b)
 
 // OR----- Simple
 
-#include<iostream>
+// #include<iostream>
 
-using namespace std;
-int incsal(int salary,int rate);
-int main()
-{
-  cout<<"The incremented salary of cheif executive officier is :"<<incsal(35000,9)<<endl;
+// using namespace std;
+// int incsal(int salary,int rate);
+// int main()
+// {
+//   cout<<"The incremented salary of cheif executive officier is :"<<incsal(35000,9)<<endl;
 
-  cout<<"The incremented salary of information officier is :"<<incsal(25000,10)<<endl;
+//   cout<<"The incremented salary of information officier is :"<<incsal(25000,10)<<endl;
 
-  cout<<"The incremented salary of system analyst is :"<<incsal(24000,12)<<endl;
+//   cout<<"The incremented salary of system analyst is :"<<incsal(24000,12)<<endl;
 
-  cout<<"The incremented salary of programmer is :"<<incsal(18000,12)<<endl;
+//   cout<<"The incremented salary of programmer is :"<<incsal(18000,12)<<endl;
 
-  return 0;  
-}
-int incsal(int salary,int rate)
-{
-  return (salary+((rate*salary)/100));
-}
+//   return 0;  
+// }
+// int incsal(int salary,int rate)
+// {
+//   return (salary+((rate*salary)/100));
+// }

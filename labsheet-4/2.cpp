@@ -74,6 +74,7 @@ class dma{
     {
         cout<<c<<endl;
     }
+    
 };
 int main()
 {

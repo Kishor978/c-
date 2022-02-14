@@ -38,7 +38,7 @@ class Fahrenheit
         f=x;
         return 0;
     }
-    int display()
+    int display(int y)
     {
         cout<<"\nOutput ="<<f<< " degree Calcius.";
         return 0;
@@ -46,7 +46,7 @@ class Fahrenheit
     Fahrenheit to_calcius(Fahrenheit fah)
     {
         Fahrenheit tem;
-        tem.f= (fah.f-32)*(5/9);    
+        tem.f= (fah.f-32)*0.555556;    
         return tem;
     }
 };
@@ -73,8 +73,8 @@ int main()
         cout<<"Enter the Temperature in Fahrenheit :";
         cin>>Tc;
         C4.input_temp(Tc);
-        C5.to_calcius(C4);
-        C6.display();
+        C6=C5.to_calcius(C4);
+        C6.display(Tc);
     }
     else
     {

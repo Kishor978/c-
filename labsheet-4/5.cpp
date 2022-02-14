@@ -15,6 +15,7 @@ class nay{
     }
     void fun2()const{cout<<"The value of x is "<<x<<endl;}
 };
+
 int main()
 {
     nay n1(1);
